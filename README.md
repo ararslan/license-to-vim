@@ -32,3 +32,16 @@ Some licenses require that license stubs be inserted at the top of files.
 (See the **Stub** column in the table.)
 For applicable licenses, you can get the stub using `:Stub('abbr')`.
 Calling `:Stub` on licenses without an available stub causes an error.
+
+## Installation
+
+If you don't have a preferred installation method, I recommend installing [Vim Plug](https://github.com/junegunn/vim-plug).
+Then just add
+
+    Plug 'ararslan/license-to-vim'
+
+to your .vimrc or equivalent and submit `:source` and `:PlugInstall`.
+
+## License
+
+Copyright (C) 2016, Alex Arslan. Distributed under the same terms as Vim itself. See `:help license`.
