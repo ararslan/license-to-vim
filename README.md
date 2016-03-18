@@ -27,11 +27,23 @@ The table below lists all licenses currently available in this plugin, as well a
 Don't see the license you want?
 Open an issue and I'd be happy to add it.
 
-To insert the full text of a license under the cursor, enter `:License('abbr')`, where `abbr` refers to the abbreviation in the table.
+To insert the full text of a license at the top of the file, enter `:License('abbr')`, where `abbr` refers to the abbreviation in the table.
 Some licenses require that license stubs be inserted at the top of files.
 (See the **Stub** column in the table.)
 For applicable licenses, you can get the stub using `:Stub('abbr')`.
 Calling `:Stub` on licenses without an available stub causes an error.
+
+Some licenses and stubs require a year, author, and/or email address.
+This plugin automatically populates those for you!
+The year always uses the current year, but to set your name and email address, add these lines to your .vimrc or equivalent:
+
+```VimL
+let g:license_author = 'Rick Astley'
+let g:license_email = 'rickroll@example.com'
+```
+
+Though, unless you happen to be Rick Astley, you should use your own information.
+You don't need to set these values; if the variables aren't set, the author and email in the inserted license text will appear as `{AUTHOR}` and `{EMAIL}`, respectively.
 
 ## Installation
 
