@@ -40,7 +40,7 @@ Then just add
 
     Plug 'ararslan/license-to-vim'
 
-to your .vimrc or equivalent and submit `:source` and `:PlugInstall`.
+to your .vimrc or equivalent and submit `:source %` then `:PlugInstall`.
 
 ## License
 
