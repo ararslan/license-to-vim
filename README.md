@@ -38,7 +38,9 @@ Calling `:Stub` on licenses without an available stub causes an error.
 If you don't have a preferred installation method, I recommend installing [Vim Plug](https://github.com/junegunn/vim-plug).
 Then just add
 
-    Plug 'ararslan/license-to-vim'
+```VimL
+Plug 'ararslan/license-to-vim'
+```
 
 to your .vimrc or equivalent and submit `:source %` then `:PlugInstall`.
 
