@@ -21,4 +21,9 @@ Licenses currently available:
 * [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)
 * [Unlicense](http://unlicense.org)
 
-Don't see the license you want? Open an issue and I'd be happy to add it.
+Don't see the license you want?
+Open an issue and I'd be happy to add it.
+
+To insert the full text of a license under the cursor, enter `:License('mit')` (or whichever you choose).
+Some licenses require that license stubs be inserted at the top of files.
+For applicable licenses, you can get the stub using `:Stub('agpl')` (or whichever).
