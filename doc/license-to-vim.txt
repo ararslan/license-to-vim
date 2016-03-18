@@ -87,8 +87,58 @@ can specify MIT or MiT rather than mit if you so choose.
 --------------------------------------------------------------------
 3.1. Option summary                      *LicenseToVimOptionSummary*
 
+The plugin provides the following options that can customize the
+behavior of License To Vim. These should be set in your vimrc (or
+equivalent file).
+
+|'loaded_licensetovim'| Disables the plugin.
+
+|'license_author'|      Provides a name to automatically be inserted
+                        into the license text when applicable.
+
+|'license_email'|       Provides an email address to automatically
+                        be inserted into the license text when
+                        applicable.
+
 --------------------------------------------------------------------
 3.2. Option details                      *LicenseToVimOptionDetails*
+
+To enable any of the options detailed below, you should put the
+given line into your .vimrc (or equivalent).
+
+--------------------------------------------------------------------
+                                             *'loaded_licensetovim'*
+Values: 0 or 1
+Default: 0
+
+Maybe you just don't want this thing, in which case you can turn it
+off. Just use this line: >
+    let g:loaded_licensetovim = 1
+<
+
+--------------------------------------------------------------------
+                                                  *'license_author'*
+Values: Any string
+Default: Not set
+
+Licenses for which an author should be specified contain the text
+{AUTHOR}. If the |'license_author'| option is set, {AUTHOR} is
+replaced with the set value. Otherwise {AUTHOR} is left as-is. Use
+this line to set the option: >
+    let g:license_author = 'Your Full Name'
+<
+
+--------------------------------------------------------------------
+                                                   *'license_email'*
+Values: Any string
+Default: Not set
+
+A few licenses provide a spot for the author's email to be entered.
+In those cases, the license text contains the placeholder {EMAIL},
+which will be replaced with the value of |'license_email'| if set.
+Otherwise {EMAIL} is left as-is. Use this line to set the option: <
+    let g:license_email = 'you@example.com'
+<
 
 ====================================================================
 4. About                                         *LicenseToVimAbout*
