@@ -1,6 +1,6 @@
 <PROGRAM NAME> - <DESCRIPTION>
 
-Written in <YEAR> by <AUTHOR NAME> <AUTHOR E-MAIL ADDRESS>
+Written in {YEAR} by {AUTHOR} <{EMAIL}>
 
 [other author/contributor lines as appropriate]
 
