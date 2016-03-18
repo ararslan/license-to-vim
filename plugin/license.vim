@@ -10,18 +10,18 @@ let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h') . '/../resources'
 
 function! InsertLicense(lic, stub)
     if a:stub == 1
-        let type = 'stub'
-        let prefix = 'head_'
+        let l:type = 'stub'
+        let l:prefix = 'head_'
     else
-        let type = 'license'
-        let prefix = ''
+        let l:type = 'license'
+        let l:prefix = ''
     endif
-    let files = split(globpath(s:path, prefix . '*.txt'), '\n')
-    let names = map(copy(files), 'fnamemodify(v:val, ":t")')
-    let which = match(names, '\c^' . prefix . a:lic)
-    if which > -1
-        execute 'r' . files[which]
+    let l:files = split(globpath(s:path, l:prefix . '*.txt'), '\n')
+    let l:names = map(copy(l:files), 'fnamemodify(v:val, ":t")')
+    let l:which = match(l:names, '\c^' . l:prefix . a:lic)
+    if l:which > -1
+        execute 'r' . l:files[l:which]
     else
-        echoerr 'No matching ' . type . ' found for `' . a:lic . '`'
+        echoerr 'No matching ' . l:type . ' found for `' . a:lic . '`'
     endif
 endfunction
