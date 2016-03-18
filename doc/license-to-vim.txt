@@ -1,0 +1,107 @@
+*license-to-vim.txt* License your code like a secret agent
+*license-to-vim*
+     _   _  ______ __  _   __  ___   _____ __     _   _  _ __ __ ~
+    | | | |/ _/ __|  \| |/' _/| __| |_   _/__\   | \ / || |  V  |~
+    | |_| | \_| _|| | ' |`._`.| _|    | || \/ |  `\ V /'| | \_/ |~
+    |___|_|\__/___|_|\__||___/|___|   |_| \__/     \_/  |_|_| |_|~
+
+                        Reference Manual~
+
+====================================================================
+CONTENTS                                     *LicenseToVim-contents*
+
+    1. Intro ....................... |LicenseToVim|
+    2. Functionality provided ...... |LicenseToVimFunctionality|
+        2.1. Global commands ....... |LicenseToVimGlobalCommands|
+        2.2. Licenses available .... |LicenseToVimLicensesAvailable|
+    3. Options ..................... |LicenseToVimOptions|
+        3.1. Option summary ........ |LicenseToVimOptionSummary|
+        3.2. Option details ........ |LicenseToVimOptionDetails|
+    4. About ....................... |LicenseToVimAbout|
+    5. License ..................... |LicenseToVimLicense|
+
+====================================================================
+1. Intro                                              *LicenseToVim*
+
+If you've done any kind of programming, chances are you've seen a
+license or two in a project tree. Perhaps you've even inserted one
+of those licenses yourself! If so, you've probably noticed that
+it's inconvenient to copy licenses around all the time, enter your
+name, etc. Wouldn't it be nice if you could just make licenses
+magically appear in your code? Maybe even without leaving Vim? In
+case you don't see where I'm going with this, the License To Vim
+plugin makes this all possible!
+
+====================================================================
+2. Funtionality provided                 *LicenseToVimFunctionality*
+
+--------------------------------------------------------------------
+2.1. Global commands                    *LicenseToVimGlobalCommands*
+
+:License(<license>)                                       *:License*
+    Inserts the full text of <license> at the top of the file. The
+    license name should be given in single quotes. See section 2.2
+    for a list of the available licenses. Calling this function on
+    an unrecognized license causes an error.
+
+:Stub(<license>)                                             *:Stub*
+    Inserts the stub version of <license> at the top of the file.
+    As with |:License|, the name should be given in single quotes
+    and should match one of the licenses listed in section 2.2.
+    Licenses available for this function correspond to those marked
+    "Yes" under "Has Stub". Calling this function on a license
+    marked "No" or an otherwise unrecognized license will cause an
+    error.
+
+--------------------------------------------------------------------
+2.2. Licenses available              *LicenseToVimLicensesAvailable*
+
+All licenses currently available to the plugin are given in the
+table below. There's the full license name, the abbreviation of the
+name used by the plugin, and whether the license has a stub.
+
+License                                 Abbreviation    Has Stub
+GNU Affero General Public License 3.0   agpl            Yes
+Apache License 2.0                      apache          Yes
+Artistic License 2.0                    artistic        No
+BSD 2-Clause License                    bsd-2           No
+BSD 3-Clause License                    bsd-3           No
+CC0 1.0                                 cc0             Yes
+Eclipse Public License 1.0              epl             No
+GNU General Public License 2.0          gpl-2           Yes
+GNU General Public License 3.0          gpl-3           Yes
+ISC License                             isc             No
+GNU Lesser General Public License 2.1   lgpl-2          Yes
+GNU Lesser General Public License 3.0   lgpl-3          Yes
+MIT License                             mit             No
+Mozilla Public License 2.0              mpl             No
+Unlicense                               unlicense       No
+Do WTF You Want To Public License       wtf             No
+
+The license abbreviations are case insensitive. That is, you
+can specify MIT or MiT rather than mit if you so choose.
+
+====================================================================
+3. Options                                     *LicenseToVimOptions*
+
+--------------------------------------------------------------------
+3.1. Option summary                      *LicenseToVimOptionSummary*
+
+--------------------------------------------------------------------
+3.2. Option details                      *LicenseToVimOptionDetails*
+
+====================================================================
+4. About                                         *LicenseToVimAbout*
+
+License To Vim was created by some guy named Alex Arslan. He's
+honestly not that great at Vim and this is his first time making a
+Vim plugin. He's pretty sure it works though.
+
+Oh yeah, and he'd like to thank KeyboardFire for his help, support,
+and feedback. He'd also like to thank you! Yes you!
+
+====================================================================
+5. License                                     *LicenseToVimLicense*
+
+License To Vim is licensed under the same terms as Vim itself. For
+details, see :help license.
