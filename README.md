@@ -24,6 +24,7 @@ The table below lists all licenses currently available in this plugin, as well a
 | [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)             | `mpl`      | No  |
 | [Microsoft Public License](https://opensource.org/licenses/MS-PL)                 | `ms-pl`    | No  |
 | [Microsoft Reciprocal License](https://opensource.org/licenses/MS-RL)             | `ms-rl`    | No  |
+| [University of Illinois/NCSA Open Source License](https://opensource.org/licenses/NCSA) | `uiuc` | No |
 | [Unlicense](http://unlicense.org)                                                 | `unlicense` | No  |
 | [Do What The Fuck You Want To Public License](http://www.wtfpl.net)               | `wtf`      | No  |
 
