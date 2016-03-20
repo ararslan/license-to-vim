@@ -75,6 +75,8 @@ GNU Lesser General Public License 2.1   lgpl-2          Yes
 GNU Lesser General Public License 3.0   lgpl-3          Yes
 MIT License                             mit             No
 Mozilla Public License 2.0              mpl             No
+Microsoft Public License                ms-pl           No
+Microsoft Reciprocal License            ms-rl           No
 Unlicense                               unlicense       No
 Do WTF You Want To Public License       wtf             No
 
