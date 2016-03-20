@@ -21,7 +21,6 @@ The table below lists all licenses currently available in this plugin, as well a
 | [GNU Lesser General Public License 3.0](https://opensource.org/licenses/LGPL-3.0) | `lgpl-3`   | Yes |
 | [MIT License](https://opensource.org/licenses/MIT)                                | `mit`      | No  |
 | [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)             | `mpl`      | No  |
-
 | [Microsoft Public License](https://opensource.org/licenses/MS-PL)                 | `ms-pl`    | No  |
 | [Microsoft Reciprocal License](https://opensource.org/licenses/MS-RL)             | `ms-rl`    | No  |
 | [Unlicense](http://unlicense.org)                                                 | `unlicense` | No  |
