@@ -10,6 +10,7 @@ The table below lists all licenses currently available in this plugin, as well a
 | [GNU Affero General Public License 3.0](https://opensource.org/licenses/AGPL-3.0) | `agpl`     | Yes |
 | [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)                  | `apache`   | Yes |
 | [Artistic License 2.0](https://opensource.org/licenses/Artistic-2.0)              | `artistic` | No  |
+| [Boost Software License 1.0](https://opensource.org/licenses/BSL-1.0)             | `boost`    | No  |
 | [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)              | `bsd-2`    | No  |
 | [BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause)              | `bsd-3`    | No  |
 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0)                      | `cc0`      | Yes |
