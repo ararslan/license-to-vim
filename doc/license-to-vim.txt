@@ -140,7 +140,7 @@ Default: Not set
 A few licenses provide a spot for the author's email to be entered.
 In those cases, the license text contains the placeholder {EMAIL},
 which will be replaced with the value of |'license_email'| if set.
-Otherwise {EMAIL} is left as-is. Use this line to set the option: <
+Otherwise {EMAIL} is left as-is. Use this line to set the option: >
     let g:license_email = 'you@example.com'
 <
 
