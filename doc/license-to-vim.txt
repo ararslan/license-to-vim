@@ -70,6 +70,7 @@ BSD 2-Clause License                    bsd-2           No
 BSD 3-Clause License                    bsd-3           No
 CC0 1.0                                 cc0             Yes
 Eclipse Public License 1.0              epl             No
+European Union Public License 1.2       eupl            No
 GNU General Public License 2.0          gpl-2           Yes
 GNU General Public License 3.0          gpl-3           Yes
 ISC License                             isc             No
@@ -85,6 +86,10 @@ Do WTF You Want To Public License       wtf             No
 
 The license abbreviations are case insensitive. That is, you
 can specify MIT or MiT rather than mit if you so choose.
+
+Note that the European Union Public License itself is available
+in 23 languages (as of version 1.2), but only English is included
+here. See its website, linked in the README, to access the others.
 
 ====================================================================
 3. Options                                     *LicenseToVimOptions*

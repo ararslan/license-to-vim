@@ -16,6 +16,7 @@ The table below lists all licenses currently available in this plugin, as well a
 | [BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause)              | `bsd-3`    | No  |
 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0)                      | `cc0`      | Yes |
 | [Eclipse Public License 1.0](https://opensource.org/licenses/EPL-1.0)             | `epl`      | No  |
+| [European Union Public License 1.2](https://joinup.ec.europa.eu/collection/eupl/eupl-text-11-12) (EN) | `eupl` | No |
 | [GNU General Public License 2.0](https://opensource.org/licenses/GPL-2.0)         | `gpl-2`    | Yes |
 | [GNU General Public License 3.0](https://opensource.org/licenses/GPL-3.0)         | `gpl-3`    | Yes |
 | [ISC License](https://opensource.org/licenses/ISC)                                | `isc`      | No  |
