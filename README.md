@@ -10,7 +10,7 @@ The table below lists all licenses currently available in this plugin, as well a
 | [GNU Affero General Public License 3.0](https://opensource.org/licenses/AGPL-3.0) | `agpl`     | Yes |
 | [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)                  | `apache`   | Yes |
 | [Artistic License 2.0](https://opensource.org/licenses/Artistic-2.0)              | `artistic` | No  |
-| [Beer-ware License 42](https://people.freebsd.org/~phk/)							| `beer`	 | No  |
+| [Beer-ware License 42](https://people.freebsd.org/~phk/)                          | `beer`     | No  |
 | [Blue Oak Model License 1.0](https://blueoakcouncil.org/license/1.0.0)            | `blue-oak` | No  |
 | [Boost Software License 1.0](https://opensource.org/licenses/BSL-1.0)             | `boost`    | No  |
 | [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)              | `bsd-2`    | No  |
