@@ -64,6 +64,7 @@ License                                 Abbreviation    Has Stub
 GNU Affero General Public License 3.0   agpl            Yes
 Apache License 2.0                      apache          Yes
 Artistic License 2.0                    artistic        No
+Beerware                                beer            No
 Blue Oak Model License 1.0              blue-oak        No
 Boost Software License 1.0              boost           No
 BSD 2-Clause License                    bsd-2           No
