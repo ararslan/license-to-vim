@@ -6,14 +6,14 @@ let g:loaded_licensetovim = 1
 command! -nargs=1 -complete=customlist,LicenseComplete License :call InsertLicense(<q-args>, 0)
 command! -nargs=1 -complete=customlist,LicenseComplete Stub :call InsertLicense(<q-args>, 1)
 
-function! LicenseComplete(arglead, cmdline, cursorpos) abort "{{{
-	let l:paths = split(glob(s:path.'/*.txt'))
-	let l:files = []
-	for l:path in l:paths
-		let l:files += [split(split(l:path, '/')[-1], '\.txt')[0]]
-	endfor
-	return l:files
-endfunction "}}}
+function! LicenseComplete(arglead, cmdline, cursorpos) abort
+    let l:paths = split(glob(s:path.'/*.txt'))
+    let l:files = []
+    for l:path in l:paths
+        let l:files += [split(split(l:path, '/')[-1], '\.txt')[0]]
+    endfor
+    return l:files
+endfunction
 
 let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h') . '/../resources'
 
