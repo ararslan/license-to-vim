@@ -31,12 +31,8 @@ function! InsertLicense(lic, stub)
     if l:which > -1
         execute '0read ' . l:files[l:which]
         execute "'[,']" . 's/{YEAR}/\=strftime("%Y")/e'
-        if exists('g:license_author')
-            execute "'[,']s/{AUTHOR}/" . g:license_author . '/e'
-        endif
-        if exists('g:license_email')
-            execute "'[,']s/{EMAIL}/" . g:license_email . '/e'
-        endif
+        execute "'[,']s/{AUTHOR}/" . get(g:, 'license_author', executable('git') ? system('git config --global user.name') : expand('$USER')) . '/e'
+        execute "'[,']s/{EMAIL}/" .  get(g:, 'license_email', executable('git') ? system('git config --global user.email') : expand('$HOST')) . '/e'
     else
         echoerr 'No matching ' . l:type . ' found for `' . a:lic . '`'
     endif
