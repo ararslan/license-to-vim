@@ -50,7 +50,7 @@ let g:license_email = 'rickroll@example.com'
 ```
 
 Though, unless you happen to be Rick Astley, you should use your own information.
-You don't need to set these values; if the variables aren't set, the author and email in the inserted license text will appear as `{AUTHOR}` and `{EMAIL}`, respectively.
+You don't need to set these values; if the variables aren't set, the plugin will use the global Git configured username and email if a `git` executable is found, otherwise the author and email in the inserted license text will appear as `{AUTHOR}` and `{EMAIL}`, respectively.
 
 ## Installation
 
