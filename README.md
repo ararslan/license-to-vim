@@ -18,6 +18,7 @@ The table below lists all licenses currently available in this plugin, as well a
 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0)                      | `cc0`      | Yes |
 | [Eclipse Public License 1.0](https://opensource.org/licenses/EPL-1.0)             | `epl`      | No  |
 | [European Union Public License 1.2](https://joinup.ec.europa.eu/collection/eupl/eupl-text-11-12) (EN) | `eupl` | No |
+| [Good Luck With That Public License](https://github.com/me-shaon/GLWTPL)          | `glwt`     | No  |
 | [GNU General Public License 2.0](https://opensource.org/licenses/GPL-2.0)         | `gpl-2`    | Yes |
 | [GNU General Public License 3.0](https://opensource.org/licenses/GPL-3.0)         | `gpl-3`    | Yes |
 | [ISC License](https://opensource.org/licenses/ISC)                                | `isc`      | No  |

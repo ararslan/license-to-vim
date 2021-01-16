@@ -72,6 +72,7 @@ BSD 3-Clause License                    bsd-3           No
 CC0 1.0                                 cc0             Yes
 Eclipse Public License 1.0              epl             No
 European Union Public License 1.2       eupl            No
+Good Luck With That Public License      glwt            No
 GNU General Public License 2.0          gpl-2           Yes
 GNU General Public License 3.0          gpl-3           Yes
 ISC License                             isc             No
