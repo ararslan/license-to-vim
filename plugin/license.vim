@@ -10,7 +10,7 @@ function! LicenseComplete(arglead, cmdline, cursorpos) abort
     let l:paths = split(glob(s:path.'/*.txt'))
     let l:files = []
     for l:path in l:paths
-        if  l:path =~a:arglead
+        if l:path =~ a:arglead
             let l:files += [split(split(l:path, '/')[-1], '\.txt')[0]]
         endif
     endfor
