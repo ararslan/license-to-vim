@@ -1,2 +1,2 @@
-plugin/* -linguist-vendored
+plugin/* -linguist-vendored -linguist-documentation
 resources/* linguist-vendored
