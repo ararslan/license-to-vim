@@ -82,6 +82,7 @@ MIT License                             mit             No
 Mozilla Public License 2.0              mpl             No
 Microsoft Public License                ms-pl           No
 Microsoft Reciprocal License            ms-rl           No
+Universal Permissive License 1.0        upl             No
 University of Illinois/NCSA License     uiuc            No
 Unlicense                               unlicense       No
 Do WTF You Want To Public License       wtf             No
